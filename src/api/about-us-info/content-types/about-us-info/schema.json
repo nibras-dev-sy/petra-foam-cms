@@ -16,14 +16,6 @@
     }
   },
   "attributes": {
-    "title": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "description": {
       "type": "text",
       "pluginOptions": {
@@ -31,6 +23,16 @@
           "localized": true
         }
       }
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
